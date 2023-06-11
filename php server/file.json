@@ -1,0 +1,16 @@
+{
+"obj": [
+      {
+        "name": "ahmad",
+        "status": "online"
+      },
+      {
+        "name": "ali",
+        "status": "offline"
+      },
+      {
+        "name": "sam",
+        "status": "online"
+      }
+    ]
+}

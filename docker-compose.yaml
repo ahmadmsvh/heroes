@@ -1,0 +1,14 @@
+version: '3.9'
+services:
+  angular-11:
+    build:
+      context: angular-tour-of-heroes
+      dockerfile: Dockerfile.dev
+    ports:
+      - '4201:4200'
+    volumes:
+      - type: bind
+        source: ./angular-tour-of-heroes/src
+        target: /frontend/src
+volumes:
+  myapp:

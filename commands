@@ -1,0 +1,2 @@
+sudo docker compose up
+sudo docker exec -it 8abd966a6fa2 bash
